@@ -501,7 +501,7 @@ void mirrorImage()
     }
     cout << " mirrorImage filter applied." << endl;
 }
-void rearrangeQuarters()
+void rearrangeQuarters()// in this filter we devide the photo in four quarters then choose request another order from the user then make the new order as a new image  
 {
     int h = SIZE / 2;
     int w = SIZE / 2;
