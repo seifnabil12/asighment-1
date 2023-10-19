@@ -57,7 +57,6 @@ void askToContinue();
 int main()
 {
     int chosennumber;
-
     cout << "Choose the number of the filter that you want to apply to the image: \n";
     cout << "1. Black and white Filter\n";
     cout << "2. Invert Filter\n";
@@ -74,7 +73,7 @@ int main()
     cout << "13.SkewImageRight\n";
     cout << "14.SkewImageUp\n";
     cout << "15. crop \n";
-    cin >> chosennumber;
+    cin >> choosenumber;
 
     loadImage();
 
