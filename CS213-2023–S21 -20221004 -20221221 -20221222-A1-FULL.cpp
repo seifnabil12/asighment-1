@@ -365,7 +365,7 @@ void detectEdges()
 
     cout << " detectEdges image filter applied." << endl;
 }
-void enlargeQuarter() {
+void enlargeQuarter() {// in this filter we devide the photo in four quarters then choose one quarter to make it new as image
     int h = SIZE / 2;
     int w = SIZE / 2;
     unsigned char enlarged[h][w];
